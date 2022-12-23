@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+		integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+		crossorigin="anonymous" referrerpolicy="no-referrer">
+	<link rel="stylesheet" href="./css/styles.css">
+	<title>Портфоліо</title>
+</head>
+
+<body>
+
+	<!-- Навигация -->
+	<header class="page-header">
+		<div class="header container">
+			<nav class="page-nav">
+				<a href="./index.html" class="logo"><span>Web</span>Studio</a>
+				<ul class="nav-items">
+					<li class="item">
+						<a href="./index.html" class="link">Studio</a>
+					</li>
+					<li class="item">
+						<a href="./portfolio.html" class="link current">Portfolio</a>
+					</li>
+					<li class="item">
+						<a href="" class="link">Contacts</a>
+					</li>
+				</ul>
+				<button type="button" class="mobile-button js-open-menu">
+					<svg width="29.54" height="18.62">
+						<use href="./images/icons.svg#icon-burger"></use>
+					</svg>
+				</button>
+			</nav>
+			<ul class="menu-contacts">
+				<li class="item">
+					<a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+				</li>
+				<li class="item">
+					<a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
+				</li>
+			</ul>
+		</div>
+		<div class="mobile-modal js-menu-container">
+			<div class="mobile-modal-container">
+				<button type="button" class="mobile-button-close js-close-menu">
+					<svg width="8" height="8">
+						<use href="./images/icons.svg#icon-close"></use>
+					</svg>
+				</button>
+				<ul class="mobile-nav">
+					<li class="item">
+						<a href="./index.html" class="link">Studio</a>
+					</li>
+					<li class="item">
+						<a href="./portfolio.html" class="link">Portfolio</a>
+					</li>
+					<li class="item">
+						<a href="" class="link active">Contacts</a>
+					</li>
+				</ul>
+				<ul class="mobile-contacts">
+					<li class="item">
+						<a href="tel:+110001111111" class="link mobile">+11 (000) 111-11-11</a>
+					</li>
+					<li class="item">
+						<a href="mailto:info@devstudio.com" class="link email">info@devstudio.com</a>
+					</li>
+				</ul>
+				<ul class="mobile social-icons">
+					<li class="item">
+						<a class="link" href="">
+							<svg class="icon">
+								<use href="./images/icons.svg#icon-instagram"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="item">
+						<a class="link" href="">
+							<svg class="icon">
+								<use href="./images/icons.svg#icon-twitter"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="item">
+						<a class="link" href="">
+							<svg class="icon">
+								<use href="./images/icons.svg#icon-facebook"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="item">
+						<a class="link" href="">
+							<svg class="icon">
+								<use href="./images/icons.svg#icon-linkedin"></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+
+	<main class="portfolio section">
+		<div class="container">
+			<!-- Фильтр -->
+			<ul class="filter-buttons">
+				<li class="item"><button class="button" type="button">All</button></li>
+				<li class="item"><button class="button" type="button">Web Site</button></li>
+				<li class="item"><button class="button" type="button">App</button></li>
+				<li class="item"><button class="button" type="button">Design</button></li>
+				<li class="item"><button class="button" type="button">Marketing</button></li>
+			</ul>
+
+			<!-- Карточки -->
+			<section class="project-section">
+				<ul class="project-cards">
+					<li class="card">
+						<a href="">
+							<div class="img-block">
+								<img src="./images/bank-app.jpg" class="image" width="360" alt="Banking App Interface image">
+								<div class="overlay">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, eveniet.</p>
+								</div>
+							</div>
+							<div class="block">
+								<h3 class="title">Banking App Interface Concept</h3>
+								<p class="text">App</p>
+							</div>
+						</a>
+					</li>
+					<li class="card">
+						<a href="">
+							<div class="img-block">
+								<img src="./images/cashless-payment.jpg" class="image" width="360" alt="Cashless Payment">
+								<div class="overlay">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, eveniet.</p>
+								</div>
+							</div>
+							<div class="block">
+								<h3 class="title">Cashless Payment</h3>
+								<p class="text">Marketing</p>
+							</div>
+						</a>
+					</li>
+					<li class="card">
+						<a href="">
+							<div class="img-block">
+								<img src="./images/meditaion-app.jpg" class="image" width="360" alt="Meditaion App image">
+								<div class="overlay">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, eveniet.</p>
+								</div>
+							</div>
+							<div class="block">
+								<h3 class="title">Meditaion App</h3>
+								<p class="text">App</p>
+							</div>
+						</a>
+					</li>
+					<li class="card">
+						<a href="">
+							<div class="img-block">
+								<img src="./images/taxi-service.jpg" class="image" width="360" alt="Taxi Service image">
+								<div class="overlay">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, eveniet.</p>
+								</div>
+							</div>
+							<div class="block">
+								<h3 class="title">Taxi Service</h3>
+								<p class="text">Marketing</p>
+							</div>
+						</a>
+					</li>
+					<li class="card">
+						<a href="">
+							<div class="img-block">
+								<img src="./images/screen-illustrations.jpg" class="image" width="360" alt="Screen Illustrations image">
+								<div class="overlay">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, eveniet.</p>
+								</div>
+							</div>
+							<div class="block">
+								<h3 class="title">Screen Illustrations</h3>
+								<p class="text">Design</p>
+							</div>
+						</a>
+					</li>
+					<li class="card">
+						<a href="">
+							<div class="img-block">
+								<img src="./images/online-courses.jpg" class="image" width="360" alt="Online Courses image">
+								<div class="overlay">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, eveniet.</p>
+								</div>
+							</div>
+							<div class="block">
+								<h3 class="title">Online Courses</h3>
+								<p class="text">Marketing</p>
+							</div>
+						</a>
+					</li>
+					<li class="card">
+						<a href="">
+							<div class="img-block">
+								<img src="./images/instagram-stories-concept.jpg" class="image" width="360"
+									alt="Instagram Stories Concept image">
+								<div class="overlay">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, eveniet.</p>
+								</div>
+							</div>
+							<div class="block">
+								<h3 class="title">Instagram Stories Concept</h3>
+								<p class="text">Design</p>
+							</div>
+						</a>
+					</li>
+					<li class="card">
+						<a href="">
+							<div class="img-block">
+								<img src="./images/organic-food.jpg" class="image" width="360" alt="Organic Food image">
+								<div class="overlay">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, eveniet.</p>
+								</div>
+							</div>
+							<div class="block">
+								<h3 class="title">Organic Food</h3>
+								<p class="text">Web Site</p>
+							</div>
+						</a>
+					</li>
+					<li class="card">
+						<a href="">
+							<div class="img-block">
+								<img src="./images/fresh-coffee.jpg" class="image" width="360" alt="Fresh Coffee image">
+								<div class="overlay">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, eveniet.</p>
+								</div>
+							</div>
+							<div class="block">
+								<h3 class="title">Fresh Coffee</h3>
+								<p class="text">Web Site</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</main>
+
+	<!-- Подвал -->
+	<footer class="page-footer section">
+		<div class="page-footer container">
+			<div class="footer-content">
+				<div class="logo-block">
+					<a href="" class="logo footer"><span>Web</span>Studio</a>
+					<p class="text footer">Increase the flow of customers and sales for your business with digital marketing &
+						growth
+						solutions.</p>
+				</div>
+				<div class="social-icons footer">
+					<h3 class="title">Social media</h3>
+					<ul class="list">
+						<li class="item">
+							<a class="link" href="">
+								<svg class="icon">
+									<use href="./images/icons.svg#icon-instagram"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="item">
+							<a class="link" href="">
+								<svg class="icon">
+									<use href="./images/icons.svg#icon-twitter"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="item">
+							<a class="link" href="">
+								<svg class="icon">
+									<use href="./images/icons.svg#icon-facebook"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="item">
+							<a class="link" href="">
+								<svg class="icon">
+									<use href="./images/icons.svg#icon-linkedin"></use>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<form class="subscribe">
+					<h3 class="title">Subscribe</h3>
+					<div class="form-field">
+						<label class="subscribe-label">
+							<input class="subscribe-input" type="email" name="email" id="email" required placeholder="E-mail">
+						</label>
+						<button class="subscribe-button button" type="submit">Subscribe
+							<svg class="icon" width="24" height="20">
+								<use href="./images/icons.svg#icon-send"></use>
+							</svg>
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</footer>
+	<script src="./js/modal.js"></script>
+	<script src="./js/mobile-menu.js"></script>
+</body>
+
+</html>
